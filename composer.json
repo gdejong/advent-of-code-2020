@@ -1,0 +1,23 @@
+{
+  "name": "gdejong/advent-of-code-2020",
+  "description": "Advent of Code 2020",
+  "license": "MIT",
+  "require": {
+    "php": "^7.4",
+    "symfony/console": "^5.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "phpunit/phpunit": "9"
+  },
+  "autoload": {
+    "psr-4": {
+      "gdejong\\AoC2020\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "gdejong\\AoC2020\\": "tests/"
+    }
+  }
+}
