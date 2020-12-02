@@ -10,7 +10,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class Day1Command extends Command
 {
-    protected static $defaultName = 'day1:part1';
+    protected static $defaultName = 'day1';
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
