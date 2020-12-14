@@ -7,6 +7,7 @@ use gdejong\AoC2020\Day10\Day10Command;
 use gdejong\AoC2020\Day11\Day11Command;
 use gdejong\AoC2020\Day12\Day12Command;
 use gdejong\AoC2020\Day13\Day13Command;
+use gdejong\AoC2020\Day14\Day14Command;
 use gdejong\AoC2020\Day2\Day2Command;
 use gdejong\AoC2020\Day3\Day3Command;
 use gdejong\AoC2020\Day4\Day4Command;
@@ -35,6 +36,7 @@ $application->addCommands([
     new Day11Command(),
     new Day12Command(),
     new Day13Command(),
+    new Day14Command(),
 ]);
 
 $application->run();
